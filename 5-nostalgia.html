@@ -1,0 +1,324 @@
+<!-- 
+  rifai svg line chart
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 5</title>
+    <link rel="stylesheet" href="3-style.css" />
+    <link rel="stylesheet" href="5-nostalgia.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <header>
+        <!-- link homepage -->
+        <h1><a href="index.html">BRAIN DRAIN</a></h1>
+      </header>
+
+      <!-- <div class="container">
+        <div class="info">
+          <h2>What if you miss home?</h2>
+          <p class="text">
+            There are many individual psychological processes at play among
+            expatriates: you may experience distress, a sense of loss,
+            confusion, a longing for family ties and their social context,
+            anger, disillusionment, or a sense of fulfillment. These emotions
+            can be felt both <b>toward the chosen location</b> and
+            <b>toward the place of origin</b>, and they can occur simultaneously
+            and change over the years; the place of origin may initially be
+            viewed with anger and transform over time into a place of nostalgia.
+            <br /><br />The problem is that people often assume you can just hop
+            on a low-cost flight whenever you feel homesick, but they forget the
+            actual logistics. Going home means spending small fortunes on
+            tickets, and being able to skip workdays, which is not always
+            possible.
+          </p>
+        </div>
+      </div> -->
+
+      <div class="container">
+        <div class="info">
+          <h2 style="padding-top: 2rem">Is it easy to rebuild a life?</h2>
+          <p class="text">
+            <br />
+            Starting a new life abroad involves numerous changes necessary to
+            achieve a new sense of stability. Adaptation is not an instant
+            process but a journey you would have to go through.
+          </p>
+          <!-- <p class="long-quote">
+            I moved abroad by choice, intending to live in a new country, but
+            now I feel an overwhelming sense of regret about my decision to
+            move. <br />
+            I’ve become so <b>depressed</b> that I don’t want to leave the house
+            because seeing daily life in this new country triggers me and
+            reminds me of the decision I made to live here.
+            <b>I feel stupid</b> for moving and I feel a huge sense of guilt for
+            myself and my partner for being here. <br />
+            I’ve been here for 6 months. My question is: at what point do you go
+            home?
+          </p> -->
+
+          <!-- grafico sulle fasi dell'adattabilità = 2 anni line chart -->
+          <div class="adaptation-scrolly-stacked">
+            <div class="sticky-intro-mask">
+              <p class="long-quote">
+                I moved abroad by choice, intending to live in a new country,
+                but now I feel an overwhelming sense of regret about my decision
+                to move. <br />
+                I’ve become so <b>depressed</b> that I don’t want to leave the
+                house because seeing daily life in this new country triggers me
+                and reminds me of the decision I made to live here.
+                <b>I feel stupid</b> for moving and I feel a huge sense of guilt
+                for myself and my partner for being here. <br />
+                I’ve been here for 6 months. My question is: at what point do
+                you go home?
+              </p>
+              <h3>Adapting to a new place</h3>
+            </div>
+            <!-- <h3 class="sticky-intro-mask">
+              The process of adapting to a new place
+            </h3> -->
+            <div class="adaptation-chart-background">
+              <div id="adaptation-chart"></div>
+            </div>
+
+            <div class="adaptation-text-overlay">
+              <div class="curve-step-card" data-step="1">
+                <h3>Euphoria (Honeymoon Phase)</h3>
+                <p>
+                  The first few weeks or months feel incredibly <b>exciting</b>:
+                  a new culture, new opportunities, everything seems interesting
+                  and inspiring.
+                </p>
+              </div>
+
+              <div class="curve-step-card" data-step="2">
+                <h3>Crisis (Culture Shock)</h3>
+                <p>
+                  This stage sets in when the initial excitement fades, replaced
+                  by reality: bureaucracy, language barriers, job search
+                  difficulties. 60–70% of migrants experience stress,
+                  homesickness, and irritability.
+                </p>
+              </div>
+
+              <div class="curve-step-card" data-step="3">
+                <h3>Adaptation</h3>
+                <p>
+                  You start <b>understanding</b> local customs, making
+                  acquaintances, and finding your favorite shops and cafés. Life
+                  becomes more predictable.
+                </p>
+              </div>
+
+              <div class="curve-step-card" data-step="4">
+                <h3>Integration</h3>
+                <p>
+                  At this stage, you feel <b>confident</b>, make long-term
+                  plans, and no longer see the country as a temporary stop but
+                  as a <b>new home</b>.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <h3>Why does adaptation take so long?</h3>
+          <p class="text">
+            The speed of adaptation depends on many factors: age, personality,
+            language proficiency, and the presence of a support system.
+            <br /><br />
+            <strong>Psychological Adjustment</strong> <br />
+            The human brain dislikes change. We are wired to prefer the familiar
+            and predictable.
+            <br /><br />
+            <strong>Language Barrier</strong> <br />
+            Even if you studied the language beforehand, real-life adaptation is
+            not just about grammar but also about slang, accents, humor,
+            dialects, and local expressions. <br />
+            <br />
+            <strong>Financial Stress</strong> <br />
+            You might face temporary financial difficulties, including job
+            hunting, paperwork, and high rental costs. <br /><br />
+            <strong>Cultural and Mentality Differences</strong> <br />
+            What seems normal in your home country might be confusing abroad.
+            <br /><br />
+            <strong>Social Connections</strong> <br />
+            Many people feel lonely in the first months, as their usual social
+            circle remains in their home country.
+          </p>
+
+          <p class="text">
+            <br /><br />
+            You can expect to miss your family, but what really catches you off
+            guard is missing the ease of lifelong friendships. Building a true,
+            <b>deep connection</b> from scratch in a new country as an adult is
+            <b>exhausting</b>.You meet plenty of people, but getting past the
+            surface-level small talk to find a friend you can actually call when
+            you are having a bad day takes a lot of <b>time</b> and
+            <b>emotional effort</b>.
+          </p>
+          <!-- grafico dei paesi più friendly e meno friendly
+          può essere interessante incrociare i dati degli espatriati e dei paesi? -->
+        </div>
+      </div>
+
+      <div class="rankings-grid">
+        <div class="ranking-column">
+          <p>
+            <strong>Italians abroad in 2024</strong> <br />
+            Italians moving abroad in 2024.
+          </p>
+          <ul id="list-expats" class="map-ranking-list"></ul>
+        </div>
+        <div class="ranking-column">
+          <p>
+            <strong>Ease of settling in</strong> <br />How comfortable do expats
+            feel living here overall?
+          </p>
+          <ul id="list-settling" class="map-ranking-list"></ul>
+        </div>
+        <div class="ranking-column">
+          <p>
+            <strong>Culture and welcome</strong> <br />Do expats feel welcomed
+            and culturally accepted here?
+          </p>
+          <ul id="list-culture" class="map-ranking-list"></ul>
+        </div>
+        <div class="ranking-column">
+          <p>
+            <strong>Local friendliness</strong> <br />Are locals friendly and
+            approachable toward foreigners?
+          </p>
+          <ul id="list-friendliness" class="map-ranking-list"></ul>
+        </div>
+        <div class="ranking-column">
+          <p>
+            <strong>Making friends</strong> <br />Do expats actually manage to
+            build a social life?
+          </p>
+          <ul id="list-friends" class="map-ranking-list"></ul>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="info">
+          <p class="text">
+            It was decided to compare the categories analyzed by "The Ease of
+            Settling In index" with data on Italians who moved abroad in 2024 to
+            highlight how certain countries are underestimated or overestimated
+            based on the general perception of them. For this reason, only 47
+            countries appear on the lists—those to which Italians chose to
+            emigrate in 2024 and which <b>also appeared</b> in the index.
+            <br />
+            <br />For detailed data on Italians living abroad, see the “Where is
+            everyone going?” page.
+          </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="info">
+          <div class="button-chapter">
+            <!-- porta 0 - homepage -->
+            <a href="index.html">
+              <img
+                src="1-doors/1.png"
+                alt="door image"
+                class="door"
+                id="chapter1"
+              />
+              <span class="tooltip-text">Homepage</span>
+            </a>
+
+            <!-- porta 1 - where is everyone going? -->
+            <a href="1-line.html">
+              <img
+                src="1-doors/2.png"
+                alt="door image"
+                class="door"
+                id="chapter1"
+              />
+              <!-- <p>Where is everyone going?</p> -->
+              <span class="tooltip-text">Where is everyone <br />going?</span>
+            </a>
+
+            <!-- porta 2 - what are your chances of finding a job? -->
+            <a href="4-salary.html">
+              <img
+                src="1-doors/3.png"
+                alt="door image"
+                class="door"
+                id="chapter2"
+              />
+              <span class="tooltip-text"
+                >What are your chances <br />of finding a job?</span
+              >
+            </a>
+
+            <!-- porta 3 - what goals do you have in life? -->
+            <a href="3-lifeMilestones.html">
+              <img
+                src="1-doors/4.png"
+                alt="door image"
+                class="door"
+                id="chapter3"
+              />
+              <span class="tooltip-text"
+                >What goals do you <br />have in life?</span
+              >
+            </a>
+
+            <!-- porta 4 - Will you miss home? -->
+            <a href="5-nostalgia.html">
+              <img
+                src="1-doors/5.png"
+                alt="door image"
+                class="door"
+                id="chapter4"
+                style="opacity: 0.5"
+              />
+              <span class="tooltip-text"
+                >Is it easy to <br />rebuild a life?</span
+              >
+            </a>
+
+            <!-- porta 6 - What's in your cart? -->
+            <a href="7-groceries.html">
+              <img
+                src="1-doors/6.png"
+                alt="door image"
+                class="door"
+                id="chapter5"
+              />
+              <span class="tooltip-text">What's in your cart?</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="info">
+          <p class="text" style="text-align: center">
+            Go to the next chapter: <br />
+            <b>What's in your cart?</b>
+          </p>
+          <div class="next-chapter">
+            <a href="7-groceries.html">
+              <img src="1-doors/6.png" alt="door image" class="next" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        Giulia Rossi. Aalto University – Information Design Studio 2026.
+      </footer>
+
+      <script src="5-nostalgia.js" defer></script>
+      <script src="5-line.js" defer></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,241 @@
+.interactive-section {
+  position: relative;
+  width: 90vw;
+  height: 85vh;
+  margin-bottom: 4rem;
+  background-color: var(--white);
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.game-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#cart-target {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+  height: auto;
+  pointer-events: auto;
+  transition: filter 0.2s, transform 0.2s;
+  z-index: 5;
+}
+
+.product-item {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  cursor: grab;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  touch-action: none;
+  pointer-events: auto;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.product-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  filter: drop-shadow(0.1rem 0.2rem 0.4rem rgba(0, 0, 0, 0.15));
+  transition: transform 0.2s;
+  -webkit-user-drag: none;
+}
+
+.product-item.dragging {
+  cursor: grabbing;
+  z-index: 1000 !important;
+}
+
+.product-item.dragging img {
+  transform: scale(1.2);
+}
+
+.receipt {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 22rem;
+  background-color: #fff;
+  border: 0.1rem solid var(--lightblue);
+  z-index: 2000;
+  transition: bottom 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.receipt.closed {
+  bottom: 0;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.receipt.open {
+  bottom: 0;
+  height: 75%;
+  cursor: default;
+}
+
+.receipt-handle {
+  height: 3rem;
+  background-color: var(--white);
+  color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: H2;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  border-bottom: 0.1rem dashed var(--lightblue);
+  cursor: pointer;
+}
+
+.receipt-paper {
+  padding: 1.5rem 2rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.receipt-countries {
+  display: none;
+}
+
+.receipt-scroll-area {
+  overflow-y: auto;
+  flex-grow: 1;
+  padding-right: 0.5rem;
+}
+
+.receipt-scroll-area::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+.receipt-scroll-area::-webkit-scrollbar-thumb {
+  background: var(--lightblue);
+  border-radius: 0.2rem;
+}
+
+.receipt-item,
+.summary-row {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.85rem;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.2rem;
+}
+
+.receipt-item-name {
+  width: 45%;
+  white-space: normal;
+  word-wrap: break-word;
+  line-height: 1.2;
+  padding-right: 0.5rem;
+  font-weight: bold;
+}
+
+.price-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.4rem;
+  flex-grow: 1;
+  padding-top: 0.1rem;
+}
+
+.price-stack div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.price-stack div:nth-child(1)::before {
+  content: "IT €";
+  margin-right: 0.5rem;
+  font-weight: bold;
+  color: var(--blue);
+}
+.price-stack div:nth-child(2)::before {
+  content: "DE €";
+  margin-right: 0.5rem;
+  font-weight: bold;
+  color: var(--blue);
+}
+.price-stack div:nth-child(3)::before {
+  content: "ES €";
+  margin-right: 0.5rem;
+  font-weight: bold;
+  color: var(--blue);
+}
+.price-stack div:nth-child(4)::before {
+  content: "UK €";
+  margin-right: 0.5rem;
+  font-weight: bold;
+  color: var(--blue);
+}
+.price-stack div:nth-child(5)::before {
+  content: "FR €";
+  margin-right: 0.5rem;
+  font-weight: bold;
+  color: var(--blue);
+}
+.price-stack div:nth-child(6)::before {
+  content: "CH €";
+  margin-right: 0.5rem;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.dashed-line {
+  border-top: 0.1rem dashed #333;
+  margin: 1rem 0;
+}
+
+.total-row {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.empty-btn {
+  height: 3.2rem;
+  position: absolute;
+  bottom: -0.2rem;
+  left: calc(50% + 11.5rem);
+  /* padding: 0.5rem 0.8rem; */
+  background-color: var(--white);
+  color: var(--blue);
+  border: 0.1rem solid var(--lightblue);
+  font-family: body;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 2000;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
+}
+
+.empty-btn:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.empty-btn:active {
+  transform: scale(0.95);
+}
