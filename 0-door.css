@@ -1,16 +1,16 @@
 @font-face {
   font-family: H2;
-  src: url(/structure-website/0-typefaces/Cinzel/static/Cinzel-Regular.ttf);
+  src: url(0-typefaces/Cinzel/static/Cinzel-Regular.ttf);
 }
 
 @font-face {
   font-family: H1;
-  src: url(/structure-website/0-typefaces/Besley/static/Besley-Regular.ttf);
+  src: url(/0-typefaces/Besley/static/Besley-Regular.ttf);
 }
 
 @font-face {
   font-family: body;
-  src: url(/structure-website/0-typefaces/Andada/static/AndadaPro-Regular.ttf);
+  src: url(0-typefaces/Andada/static/AndadaPro-Regular.ttf);
 }
 
 :root {
