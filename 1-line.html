@@ -1,0 +1,381 @@
+<!-- 
+  cosa da poter migliorare:
+  aggiungi animazione flow da italia a paese quando mouseover
+    + 2 piccole barre (una che mostra totale italiani e comparazione con barra paese selezionato)
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 1</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- timeline + map -->
+    <link rel="stylesheet" href="3-style.css" />
+    <link rel="stylesheet" href="1-line.css" />
+    <!-- timeline + map -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <header>
+        <!-- link homepage -->
+        <h1><a href="index.html">BRAIN DRAIN</a></h1>
+      </header>
+
+      <div class="container">
+        <div class="info">
+          <h2>Where is everyone going?</h2>
+          <p class="text">
+            <br />
+            <strong>THE FAIRYTALE</strong> <br />
+            When you scroll through social media, moving abroad often looks
+            <b>easy</b>. However, packing your life into a suitcase means
+            stepping out of your comfort zone. <br />
+            Suddenly, you start missing the little things you took for granted.
+            While the professional rewards and personal growth can be rewarding,
+            your journey demands
+            <b>immense resilience</b>.
+          </p>
+          <p class="long-quote">
+            "Isolation, bullying, language and cultural barriers, different
+            schedules, different schools, and racism are among the small
+            challenges of daily life. The major ones were when relatives started
+            <b>passing away</b>. When you wish you could be there, but you have
+            to be here. A person living abroad is and always will be
+            <b>torn in two</b>. Last year, my brother was in the hospital for
+            six months, enduring a very difficult open-heart surgery and a
+            post-operative coma. I had to stay here for work, but also be there
+            to help, constantly going back and forth, which was costly both
+            financially and emotionally. <b>Always divided</b>. I am here and I
+            miss Italy; I am there and I want to return to the Netherlands".
+            <br /><br />Luisa. 65 years old.
+            <br />
+            From Rome to Dublin and then Amsterdam.
+          </p>
+
+          <!-- TIMELINE -->
+          <div class="scrolly-container">
+            <div class="sticky-intro-mask">
+              <p class="text">
+                If you decide to pack your bags, you need to understand that the
+                Italian brain drain is not a temporary trend, it has become a
+                <b>structural shift</b>.
+                <br />
+                <br />
+                <strong>HOW DID IT DEVELOP DURING THE YEARS?</strong>
+              </p>
+            </div>
+
+            <div id="timeline-chart-container"></div>
+            <div class="container scrolly-grid">
+              <div class="century-col">
+                <div class="sticky-century">
+                  20
+                  <div class="data-row">
+                    <span><b>Total expatriates</b>:</span>
+                    <span id="val-espatri">000.000</span>
+                  </div>
+                  <div class="data-row">
+                    <span><b>Total returnees</b>:</span>
+                    <span id="val-rimpatri">000.000</span>
+                  </div>
+                  <div class="data-row">
+                    <span><b>Net migration</b>:</span>
+                    <strong><span id="val-saldo">- 000.000</span></strong>
+                  </div>
+                </div>
+              </div>
+
+              <div class="scrolling-col">
+                <div
+                  class="step"
+                  data-espatri="200.712"
+                  data-rimpatri="163.999"
+                  data-saldo="-36.713"
+                >
+                  <div class="decade">10</div>
+                  <div class="step-text">
+                    <h3>First phase</h3>
+                    <p>
+                      <br />
+                      Preceding the <b>global financial crisis</b> and the dawn
+                      of the Great Recession in 2008, this phase is defined by
+                      relatively modest and well-balanced mobility. Outward
+                      migration steadily averages 40,000 individuals per year,
+                      whereas return migration stands at 33,000
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="step"
+                  data-espatri="489.721"
+                  data-rimpatri="282.636"
+                  data-saldo="-207.085"
+                >
+                  <div class="decade">14</div>
+                  <div class="step-text">
+                    <h3>Second phase</h3>
+                    <p>
+                      <br />
+                      Outward migration experiences a sharp upsurge (from 50,000
+                      to 89,000), while return migration persists at
+                      considerably more modest levels (averaging 30,000
+                      annually). The interplay of these two trends drives a
+                      decline in net migration, hitting a trough of -60,000 in
+                      2014 and culminating in an aggregate loss of 170,000
+                      Italian citizens over the period as a whole.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="step"
+                  data-espatri="1.059.803"
+                  data-rimpatri="507.982"
+                  data-saldo="-551.821"
+                >
+                  <div class="decade">19</div>
+                  <div class="step-text">
+                    <h3>Third phase</h3>
+                    <p>
+                      <br />
+                      Outward migration reaches unprecedented levels (averaging
+                      114,000 annually), yet the influx of returning Italians
+                      also increases (to 45,000 per year). This dynamic
+                      facilitates a relative contraction in the net migration
+                      gap, shifting from -72,000 in 2015 to -54,000 in 2019
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="step"
+                  data-espatri="1.488.539"
+                  data-rimpatri="774.277"
+                  data-saldo="-714.262"
+                >
+                  <div class="decade">23</div>
+                  <div class="step-text">
+                    <h3>Fourth phase</h3>
+                    <p>
+                      <br />
+                      <b>Pandemic shock</b>. Outward migration sustains elevated
+                      levels, compounded by the Brexit effect: numerous Italians
+                      already domiciled in the United Kingdom expedited their
+                      enrollment in the AIRE to secure or validate their settled
+                      status, thereby inflating emigration records. Return
+                      migration also experiences an uptick (205,000 in
+                      aggregate), prompted by public health uncertainty,
+                      culminating in a net migration deficit of 110,000 for the
+                      entire three-year timeframe.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="step"
+                  data-espatri="1.644.271"
+                  data-rimpatri="826.795"
+                  data-saldo="-817.486"
+                >
+                  <div class="decade">24</div>
+                  <div class="step-text">
+                    <h3>Now</h3>
+                    <p>
+                      <br />In 2024 alone, over 150,000 Italians officially
+                      moved their residency abroad. Today, the "Italy outside of
+                      Italy" counts over 6.4 million people.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <p class="long-quote">
+            "I left to improve my English and take the exam to become a teacher
+            abroad, but I never came back, and now I’ve spent half my life
+            outside of Italy; when I return to Rome, I’m a tourist in my own
+            city. <br />I <b>left everything</b> there: my home, my belongings,
+            my friends, and my family. Over time, I’ve also
+            <b>lost everything</b>: my home, my belongings, my friends, and my
+            family. My stuff was thrown or given away; my friends drifted apart;
+            my relatives died, almost all of them. When I go back, I feel
+            nothing but nostalgia."<br /><br />Luisa. 65 years old. <br />
+            From Rome to Dublin and then Amsterdam.
+          </p> -->
+
+          <p class="text">
+            <br />
+            Historically, if you were part of this exodus, you were almost
+            exclusively from the South, driven by a sheer lack of local
+            opportunities. <b>Today</b>, the landscape has changed. Europe
+            remains the ultimate comfort zone, welcoming over half of all
+            Italian expats. <br />
+            The real motivation? It’s not that you don’t want to live in Italy.
+            It’s that as a young professional, you are looking for meritocracy,
+            transparent career paths, and contracts that actually allow you to
+            become independent and achieve your goals. <br /><br />
+          </p>
+          <p class="long-quote">
+            "In Italy, right after graduating in biology, job opportunities were
+            extremely limited, primarily geared toward teaching. Ever since I
+            was a little girl, I had dreamed of doing research.
+            <br />
+            I found an innovative university to do my PhD, with young and
+            motivated professors. I found the possibility, post-PhD, to receive
+            offers based on meritocracy and not on the development of good
+            "political" connections."
+            <br /><br />Anna. 30 years old. <br />From Milan to Boston.
+          </p>
+        </div>
+      </div>
+
+      <!-- MAPPA -->
+      <div class="interactive-map-section">
+        <h2 class="sticky-map-title">Italians abroad in 2024</h2>
+
+        <div class="map-scrolly-layout">
+          <div id="map-sidebar">
+            <ul id="map-ranking-list"></ul>
+          </div>
+
+          <div id="map-right-column">
+            <div id="map-container"></div>
+
+            <div id="map-scroll-text">
+              <div class="map-step" id="step-world"></div>
+
+              <div class="map-step" id="step-italy">
+                <div class="map-step-content">
+                  <h3 style="margin-top: 0">The starting points</h3>
+                  <p class="text">
+                    Today, wealthy northern regions like are among the top
+                    starting points for italians in search of better
+                    opportunities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div class="container">
+        <div class="info">
+          <div class="button-chapter">
+            <!-- porta 0 - homepage -->
+            <a href="index.html">
+              <img
+                src="1-doors/1.png"
+                alt="door image"
+                class="door"
+                id="chapter1"
+              />
+              <span class="tooltip-text">Homepage</span>
+            </a>
+
+            <!-- porta 1 - where is everyone going? -->
+            <a href="1-line.html">
+              <img
+                src="1-doors/2.png"
+                alt="door image"
+                class="door"
+                id="chapter1"
+                style="opacity: 0.5"
+              />
+              <!-- <p>Where is everyone going?</p> -->
+              <span class="tooltip-text">Where is everyone <br />going?</span>
+            </a>
+
+            <!-- porta 2 - what are your chances of finding a job? -->
+            <a href="4-salary.html">
+              <img
+                src="1-doors/3.png"
+                alt="door image"
+                class="door"
+                id="chapter2"
+              />
+              <span class="tooltip-text"
+                >What are your chances <br />of finding a job?</span
+              >
+            </a>
+
+            <!-- porta 3 - what goals do you have in life? -->
+            <a href="3-lifeMilestones.html">
+              <img
+                src="1-doors/4.png"
+                alt="door image"
+                class="door"
+                id="chapter3"
+              />
+              <span class="tooltip-text"
+                >What goals do you <br />have in life?</span
+              >
+            </a>
+
+            <!-- porta 4 - Will you miss home? -->
+            <a href="5-nostalgia.html">
+              <img
+                src="1-doors/5.png"
+                alt="door image"
+                class="door"
+                id="chapter4"
+              />
+              <span class="tooltip-text"
+                >Is it easy to <br />rebuild a life?</span
+              >
+            </a>
+
+            <!-- porta 6 - What's in your cart? -->
+            <a href="7-groceries.html">
+              <img
+                src="1-doors/6.png"
+                alt="door image"
+                class="door"
+                id="chapter5"
+              />
+              <span class="tooltip-text">What's in your cart?</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div class="container">
+        <div class="info">
+          <p class="text" style="text-align: center">
+            Go to the next chapter: <br />
+            <b>What are your chances of finding a job?</b>
+          </p>
+          <div class="next-chapter">
+            <!-- porta 2 - what are your chances of finding a job? -->
+            <a href="4-salary.html">
+              <img src="1-doors/3.png" alt="door image" class="next" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        Giulia Rossi. Aalto University – Information Design Studio 2026.
+      </footer>
+
+      <script src="1-line.js" defer></script>
+      <script src="1-lineMap.js" defer></script>
+    </div>
+  </body>
+</html>

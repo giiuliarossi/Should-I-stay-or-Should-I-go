@@ -1,0 +1,589 @@
+Anno;Continente;Area;Paese;Sesso;Trasferiti dall'Italia (espatri) (p);Trasferiti in Italia (rimpatri) (p);Saldo migratorio con l'Italia (p)
+2024;Europa;Unione europea;Austria;Maschi;1550;414;1136
+2024;Europa;Unione europea;Austria;Femmine;1370;299;1071
+2024;Europa;Unione europea;Austria;Totale;2920;713;2207
+2024;Europa;Unione europea;Belgio;Maschi;2183;564;1619
+2024;Europa;Unione europea;Belgio;Femmine;2259;479;1780
+2024;Europa;Unione europea;Belgio;Totale;4442;1043;3399
+2024;Europa;Unione europea;Bulgaria;Maschi;181;104;77
+2024;Europa;Unione europea;Bulgaria;Femmine;94;27;67
+2024;Europa;Unione europea;Bulgaria;Totale;275;131;144
+2024;Europa;Unione europea;Danimarca;Maschi;1029;167;862
+2024;Europa;Unione europea;Danimarca;Femmine;910;108;802
+2024;Europa;Unione europea;Danimarca;Totale;1939;275;1664
+2024;Europa;Unione europea;Finlandia;Maschi;175;55;120
+2024;Europa;Unione europea;Finlandia;Femmine;126;48;78
+2024;Europa;Unione europea;Finlandia;Totale;301;103;198
+2024;Europa;Unione europea;Francia;Maschi;6372;1812;4560
+2024;Europa;Unione europea;Francia;Femmine;6160;1473;4687
+2024;Europa;Unione europea;Francia;Totale;12532;3285;9247
+2024;Europa;Unione europea;Germania;Maschi;10730;4577;6153
+2024;Europa;Unione europea;Germania;Femmine;9127;3484;5643
+2024;Europa;Unione europea;Germania;Totale;19857;8061;11796
+2024;Europa;Unione europea;Grecia;Maschi;270;92;178
+2024;Europa;Unione europea;Grecia;Femmine;211;77;134
+2024;Europa;Unione europea;Grecia;Totale;481;169;312
+2024;Europa;Unione europea;Irlanda;Maschi;1204;329;875
+2024;Europa;Unione europea;Irlanda;Femmine;1161;259;902
+2024;Europa;Unione europea;Irlanda;Totale;2365;588;1777
+2024;Europa;Unione europea;Lussemburgo;Maschi;777;255;522
+2024;Europa;Unione europea;Lussemburgo;Femmine;547;125;422
+2024;Europa;Unione europea;Lussemburgo;Totale;1324;380;944
+2024;Europa;Unione europea;Malta;Maschi;841;274;567
+2024;Europa;Unione europea;Malta;Femmine;613;201;412
+2024;Europa;Unione europea;Malta;Totale;1454;475;979
+2024;Europa;Unione europea;Paesi Bassi;Maschi;2826;616;2210
+2024;Europa;Unione europea;Paesi Bassi;Femmine;2399;486;1913
+2024;Europa;Unione europea;Paesi Bassi;Totale;5225;1102;4123
+2024;Europa;Unione europea;Polonia;Maschi;634;176;458
+2024;Europa;Unione europea;Polonia;Femmine;275;84;191
+2024;Europa;Unione europea;Polonia;Totale;909;260;649
+2024;Europa;Unione europea;Portogallo;Maschi;976;353;623
+2024;Europa;Unione europea;Portogallo;Femmine;913;233;680
+2024;Europa;Unione europea;Portogallo;Totale;1889;586;1303
+2024;Europa;Unione europea;Romania;Maschi;613;263;350
+2024;Europa;Unione europea;Romania;Femmine;360;120;240
+2024;Europa;Unione europea;Romania;Totale;973;383;590
+2024;Europa;Unione europea;Spagna;Maschi;9600;1351;8249
+2024;Europa;Unione europea;Spagna;Femmine;9294;1052;8242
+2024;Europa;Unione europea;Spagna;Totale;18894;2403;16491
+2024;Europa;Unione europea;Svezia;Maschi;511;179;332
+2024;Europa;Unione europea;Svezia;Femmine;509;118;391
+2024;Europa;Unione europea;Svezia;Totale;1020;297;723
+2024;Europa;Unione europea;Ungheria;Maschi;182;105;77
+2024;Europa;Unione europea;Ungheria;Femmine;108;53;55
+2024;Europa;Unione europea;Ungheria;Totale;290;158;132
+2024;Europa;Unione europea;Estonia;Maschi;53;22;31
+2024;Europa;Unione europea;Estonia;Femmine;18;8;10
+2024;Europa;Unione europea;Estonia;Totale;71;30;41
+2024;Europa;Unione europea;Lettonia;Maschi;81;31;50
+2024;Europa;Unione europea;Lettonia;Femmine;49;15;34
+2024;Europa;Unione europea;Lettonia;Totale;130;46;84
+2024;Europa;Unione europea;Lituania;Maschi;68;23;45
+2024;Europa;Unione europea;Lituania;Femmine;18;5;13
+2024;Europa;Unione europea;Lituania;Totale;86;28;58
+2024;Europa;Unione europea;Croazia;Maschi;183;53;130
+2024;Europa;Unione europea;Croazia;Femmine;121;36;85
+2024;Europa;Unione europea;Croazia;Totale;304;89;215
+2024;Europa;Unione europea;Slovenia;Maschi;101;74;27
+2024;Europa;Unione europea;Slovenia;Femmine;85;44;41
+2024;Europa;Unione europea;Slovenia;Totale;186;118;68
+2024;Europa;Unione europea;Slovacchia;Maschi;199;50;149
+2024;Europa;Unione europea;Slovacchia;Femmine;53;18;35
+2024;Europa;Unione europea;Slovacchia;Totale;252;68;184
+2024;Europa;Unione europea;Repubblica ceca;Maschi;341;137;204
+2024;Europa;Unione europea;Repubblica ceca;Femmine;191;69;122
+2024;Europa;Unione europea;Repubblica ceca;Totale;532;206;326
+2024;Europa;Unione europea;Cipro;Maschi;76;40;36
+2024;Europa;Unione europea;Cipro;Femmine;32;23;9
+2024;Europa;Unione europea;Cipro;Totale;108;63;45
+2024;Europa;Europa centro orientale;Albania;Maschi;361;122;239
+2024;Europa;Europa centro orientale;Albania;Femmine;175;89;86
+2024;Europa;Europa centro orientale;Albania;Totale;536;211;325
+2024;Europa;Europa centro orientale;Ucraina;Maschi;84;44;40
+2024;Europa;Europa centro orientale;Ucraina;Femmine;20;35;-15
+2024;Europa;Europa centro orientale;Ucraina;Totale;104;79;25
+2024;Europa;Europa centro orientale;Federazione russa;Maschi;181;121;60
+2024;Europa;Europa centro orientale;Federazione russa;Femmine;130;87;43
+2024;Europa;Europa centro orientale;Federazione russa;Totale;311;208;103
+2024;Europa;Europa centro orientale;Bosnia-Erzegovina;Maschi;41;4;37
+2024;Europa;Europa centro orientale;Bosnia-Erzegovina;Femmine;24;5;19
+2024;Europa;Europa centro orientale;Bosnia-Erzegovina;Totale;65;9;56
+2024;Europa;Europa centro orientale;Macedonia del Nord;Maschi;31;15;16
+2024;Europa;Europa centro orientale;Macedonia del Nord;Femmine;32;7;25
+2024;Europa;Europa centro orientale;Macedonia del Nord;Totale;63;22;41
+2024;Europa;Europa centro orientale;Moldova;Maschi;58;19;39
+2024;Europa;Europa centro orientale;Moldova;Femmine;90;18;72
+2024;Europa;Europa centro orientale;Moldova;Totale;148;37;111
+2024;Europa;Europa centro orientale;Bielorussia;Maschi;16;6;10
+2024;Europa;Europa centro orientale;Bielorussia;Femmine;18;12;6
+2024;Europa;Europa centro orientale;Bielorussia;Totale;34;18;16
+2024;Europa;Europa centro orientale;Montenegro;Maschi;5;9;-4
+2024;Europa;Europa centro orientale;Montenegro;Femmine;5;4;1
+2024;Europa;Europa centro orientale;Montenegro;Totale;10;13;-3
+2024;Europa;Europa centro orientale;Serbia;Maschi;66;34;32
+2024;Europa;Europa centro orientale;Serbia;Femmine;62;27;35
+2024;Europa;Europa centro orientale;Serbia;Totale;128;61;67
+2024;Europa;Europa centro orientale;Kosovo;Maschi;9;5;4
+2024;Europa;Europa centro orientale;Kosovo;Femmine;4;5;-1
+2024;Europa;Europa centro orientale;Kosovo;Totale;13;10;3
+2024;Europa;Europa centro orientale;Turchia;Maschi;81;70;11
+2024;Europa;Europa centro orientale;Turchia;Femmine;70;63;7
+2024;Europa;Europa centro orientale;Turchia;Totale;151;133;18
+2024;Europa;Altri paesi europei;Andorra;Maschi;16;3;13
+2024;Europa;Altri paesi europei;Andorra;Femmine;17;1;16
+2024;Europa;Altri paesi europei;Andorra;Totale;33;4;29
+2024;Europa;Altri paesi europei;Regno Unito;Maschi;9623;3258;6365
+2024;Europa;Altri paesi europei;Regno Unito;Femmine;8846;2768;6078
+2024;Europa;Altri paesi europei;Regno Unito;Totale;18469;6026;12443
+2024;Europa;Altri paesi europei;Islanda;Maschi;47;7;40
+2024;Europa;Altri paesi europei;Islanda;Femmine;38;5;33
+2024;Europa;Altri paesi europei;Islanda;Totale;85;12;73
+2024;Europa;Altri paesi europei;Liechtenstein;Maschi;6;12;-6
+2024;Europa;Altri paesi europei;Liechtenstein;Femmine;8;3;5
+2024;Europa;Altri paesi europei;Liechtenstein;Totale;14;15;-1
+2024;Europa;Altri paesi europei;Monaco;Maschi;61;56;5
+2024;Europa;Altri paesi europei;Monaco;Femmine;76;54;22
+2024;Europa;Altri paesi europei;Monaco;Totale;137;110;27
+2024;Europa;Altri paesi europei;Norvegia;Maschi;393;105;288
+2024;Europa;Altri paesi europei;Norvegia;Femmine;270;74;196
+2024;Europa;Altri paesi europei;Norvegia;Totale;663;179;484
+2024;Europa;Altri paesi europei;San Marino;Maschi;184;72;112
+2024;Europa;Altri paesi europei;San Marino;Femmine;116;54;62
+2024;Europa;Altri paesi europei;San Marino;Totale;300;126;174
+2024;Europa;Altri paesi europei;Svizzera;Maschi;8825;2587;6238
+2024;Europa;Altri paesi europei;Svizzera;Femmine;6381;1858;4523
+2024;Europa;Altri paesi europei;Svizzera;Totale;15206;4445;10761
+2024;Europa;Altri paesi europei;Stato della Città del Vaticano;Maschi;0;0;0
+2024;Europa;Altri paesi europei;Stato della Città del Vaticano;Femmine;0;1;-1
+2024;Europa;Altri paesi europei;Stato della Città del Vaticano;Totale;0;1;-1
+2024;Africa;Africa settentrionale;Algeria;Maschi;26;28;-2
+2024;Africa;Africa settentrionale;Algeria;Femmine;10;14;-4
+2024;Africa;Africa settentrionale;Algeria;Totale;36;42;-6
+2024;Africa;Africa settentrionale;Egitto;Maschi;119;168;-49
+2024;Africa;Africa settentrionale;Egitto;Femmine;112;118;-6
+2024;Africa;Africa settentrionale;Egitto;Totale;231;286;-55
+2024;Africa;Africa settentrionale;Libia;Maschi;6;8;-2
+2024;Africa;Africa settentrionale;Libia;Femmine;6;4;2
+2024;Africa;Africa settentrionale;Libia;Totale;12;12;0
+2024;Africa;Africa settentrionale;Marocco;Maschi;194;253;-59
+2024;Africa;Africa settentrionale;Marocco;Femmine;164;243;-79
+2024;Africa;Africa settentrionale;Marocco;Totale;358;496;-138
+2024;Africa;Africa settentrionale;Sudan;Maschi;1;7;-6
+2024;Africa;Africa settentrionale;Sudan;Femmine;0;6;-6
+2024;Africa;Africa settentrionale;Sudan;Totale;1;13;-12
+2024;Africa;Africa settentrionale;Tunisia;Maschi;386;289;97
+2024;Africa;Africa settentrionale;Tunisia;Femmine;166;185;-19
+2024;Africa;Africa settentrionale;Tunisia;Totale;552;474;78
+2024;Africa;Africa settentrionale;Sud Sudan;Maschi;1;1;0
+2024;Africa;Africa settentrionale;Sud Sudan;Femmine;1;2;-1
+2024;Africa;Africa settentrionale;Sud Sudan;Totale;2;3;-1
+2024;Africa;Africa occidentale;Costa d'Avorio;Maschi;38;33;5
+2024;Africa;Africa occidentale;Costa d'Avorio;Femmine;18;15;3
+2024;Africa;Africa occidentale;Costa d'Avorio;Totale;56;48;8
+2024;Africa;Africa occidentale;Benin;Maschi;7;6;1
+2024;Africa;Africa occidentale;Benin;Femmine;5;3;2
+2024;Africa;Africa occidentale;Benin;Totale;12;9;3
+2024;Africa;Africa occidentale;Burkina Faso;Maschi;13;15;-2
+2024;Africa;Africa occidentale;Burkina Faso;Femmine;7;5;2
+2024;Africa;Africa occidentale;Burkina Faso;Totale;20;20;0
+2024;Africa;Africa occidentale;Capo Verde;Maschi;16;15;1
+2024;Africa;Africa occidentale;Capo Verde;Femmine;23;4;19
+2024;Africa;Africa occidentale;Capo Verde;Totale;39;19;20
+2024;Africa;Africa occidentale;Gambia;Maschi;1;3;-2
+2024;Africa;Africa occidentale;Gambia;Femmine;0;0;0
+2024;Africa;Africa occidentale;Gambia;Totale;1;3;-2
+2024;Africa;Africa occidentale;Ghana;Maschi;25;32;-7
+2024;Africa;Africa occidentale;Ghana;Femmine;16;26;-10
+2024;Africa;Africa occidentale;Ghana;Totale;41;58;-17
+2024;Africa;Africa occidentale;Guinea;Maschi;4;1;3
+2024;Africa;Africa occidentale;Guinea;Femmine;0;1;-1
+2024;Africa;Africa occidentale;Guinea;Totale;4;2;2
+2024;Africa;Africa occidentale;Guinea-Bissau;Maschi;3;2;1
+2024;Africa;Africa occidentale;Guinea-Bissau;Femmine;0;2;-2
+2024;Africa;Africa occidentale;Guinea-Bissau;Totale;3;4;-1
+2024;Africa;Africa occidentale;Liberia;Maschi;1;1;0
+2024;Africa;Africa occidentale;Liberia;Femmine;0;0;0
+2024;Africa;Africa occidentale;Liberia;Totale;1;1;0
+2024;Africa;Africa occidentale;Mali;Maschi;3;3;0
+2024;Africa;Africa occidentale;Mali;Femmine;3;1;2
+2024;Africa;Africa occidentale;Mali;Totale;6;4;2
+2024;Africa;Africa occidentale;Mauritania;Maschi;2;0;2
+2024;Africa;Africa occidentale;Mauritania;Femmine;3;0;3
+2024;Africa;Africa occidentale;Mauritania;Totale;5;0;5
+2024;Africa;Africa occidentale;Niger;Maschi;0;2;-2
+2024;Africa;Africa occidentale;Niger;Femmine;0;2;-2
+2024;Africa;Africa occidentale;Niger;Totale;0;4;-4
+2024;Africa;Africa occidentale;Nigeria;Maschi;30;48;-18
+2024;Africa;Africa occidentale;Nigeria;Femmine;18;18;0
+2024;Africa;Africa occidentale;Nigeria;Totale;48;66;-18
+2024;Africa;Africa occidentale;Senegal;Maschi;169;157;12
+2024;Africa;Africa occidentale;Senegal;Femmine;113;116;-3
+2024;Africa;Africa occidentale;Senegal;Totale;282;273;9
+2024;Africa;Africa occidentale;Sierra Leone;Maschi;3;1;2
+2024;Africa;Africa occidentale;Sierra Leone;Femmine;2;1;1
+2024;Africa;Africa occidentale;Sierra Leone;Totale;5;2;3
+2024;Africa;Africa occidentale;Togo;Maschi;3;9;-6
+2024;Africa;Africa occidentale;Togo;Femmine;2;4;-2
+2024;Africa;Africa occidentale;Togo;Totale;5;13;-8
+2024;Africa;Africa orientale;Burundi;Maschi;2;4;-2
+2024;Africa;Africa orientale;Burundi;Femmine;2;2;0
+2024;Africa;Africa orientale;Burundi;Totale;4;6;-2
+2024;Africa;Africa orientale;Comore;Maschi;0;1;-1
+2024;Africa;Africa orientale;Comore;Femmine;1;0;1
+2024;Africa;Africa orientale;Comore;Totale;1;1;0
+2024;Africa;Africa orientale;Etiopia;Maschi;24;41;-17
+2024;Africa;Africa orientale;Etiopia;Femmine;22;38;-16
+2024;Africa;Africa orientale;Etiopia;Totale;46;79;-33
+2024;Africa;Africa orientale;Gibuti;Maschi;2;0;2
+2024;Africa;Africa orientale;Gibuti;Femmine;2;0;2
+2024;Africa;Africa orientale;Gibuti;Totale;4;0;4
+2024;Africa;Africa orientale;Kenya;Maschi;55;39;16
+2024;Africa;Africa orientale;Kenya;Femmine;53;38;15
+2024;Africa;Africa orientale;Kenya;Totale;108;77;31
+2024;Africa;Africa orientale;Madagascar;Maschi;22;21;1
+2024;Africa;Africa orientale;Madagascar;Femmine;10;12;-2
+2024;Africa;Africa orientale;Madagascar;Totale;32;33;-1
+2024;Africa;Africa orientale;Malawi;Maschi;0;4;-4
+2024;Africa;Africa orientale;Malawi;Femmine;0;1;-1
+2024;Africa;Africa orientale;Malawi;Totale;0;5;-5
+2024;Africa;Africa orientale;Maurizio;Maschi;26;8;18
+2024;Africa;Africa orientale;Maurizio;Femmine;17;9;8
+2024;Africa;Africa orientale;Maurizio;Totale;43;17;26
+2024;Africa;Africa orientale;Mozambico;Maschi;27;25;2
+2024;Africa;Africa orientale;Mozambico;Femmine;33;15;18
+2024;Africa;Africa orientale;Mozambico;Totale;60;40;20
+2024;Africa;Africa orientale;Ruanda;Maschi;10;2;8
+2024;Africa;Africa orientale;Ruanda;Femmine;8;1;7
+2024;Africa;Africa orientale;Ruanda;Totale;18;3;15
+2024;Africa;Africa orientale;Seychelles;Maschi;8;4;4
+2024;Africa;Africa orientale;Seychelles;Femmine;5;1;4
+2024;Africa;Africa orientale;Seychelles;Totale;13;5;8
+2024;Africa;Africa orientale;Somalia;Maschi;6;2;4
+2024;Africa;Africa orientale;Somalia;Femmine;1;0;1
+2024;Africa;Africa orientale;Somalia;Totale;7;2;5
+2024;Africa;Africa orientale;Tanzania;Maschi;28;16;12
+2024;Africa;Africa orientale;Tanzania;Femmine;33;13;20
+2024;Africa;Africa orientale;Tanzania;Totale;61;29;32
+2024;Africa;Africa orientale;Uganda;Maschi;11;9;2
+2024;Africa;Africa orientale;Uganda;Femmine;6;7;-1
+2024;Africa;Africa orientale;Uganda;Totale;17;16;1
+2024;Africa;Africa orientale;Zambia;Maschi;12;8;4
+2024;Africa;Africa orientale;Zambia;Femmine;7;6;1
+2024;Africa;Africa orientale;Zambia;Totale;19;14;5
+2024;Africa;Africa orientale;Zimbabwe;Maschi;3;2;1
+2024;Africa;Africa orientale;Zimbabwe;Femmine;5;2;3
+2024;Africa;Africa orientale;Zimbabwe;Totale;8;4;4
+2024;Africa;Africa orientale;Eritrea;Maschi;2;7;-5
+2024;Africa;Africa orientale;Eritrea;Femmine;0;5;-5
+2024;Africa;Africa orientale;Eritrea;Totale;2;12;-10
+2024;Africa;Africa centro meridionale;Angola;Maschi;12;0;12
+2024;Africa;Africa centro meridionale;Angola;Femmine;4;0;4
+2024;Africa;Africa centro meridionale;Angola;Totale;16;0;16
+2024;Africa;Africa centro meridionale;Botswana;Maschi;1;4;-3
+2024;Africa;Africa centro meridionale;Botswana;Femmine;0;1;-1
+2024;Africa;Africa centro meridionale;Botswana;Totale;1;5;-4
+2024;Africa;Africa centro meridionale;Camerun;Maschi;12;16;-4
+2024;Africa;Africa centro meridionale;Camerun;Femmine;10;8;2
+2024;Africa;Africa centro meridionale;Camerun;Totale;22;24;-2
+2024;Africa;Africa centro meridionale;Repubblica Centrafricana;Maschi;1;2;-1
+2024;Africa;Africa centro meridionale;Repubblica Centrafricana;Femmine;0;0;0
+2024;Africa;Africa centro meridionale;Repubblica Centrafricana;Totale;1;2;-1
+2024;Africa;Africa centro meridionale;Ciad;Maschi;2;1;1
+2024;Africa;Africa centro meridionale;Ciad;Femmine;1;0;1
+2024;Africa;Africa centro meridionale;Ciad;Totale;3;1;2
+2024;Africa;Africa centro meridionale;Congo;Maschi;4;15;-11
+2024;Africa;Africa centro meridionale;Congo;Femmine;1;3;-2
+2024;Africa;Africa centro meridionale;Congo;Totale;5;18;-13
+2024;Africa;Africa centro meridionale;Gabon;Maschi;1;4;-3
+2024;Africa;Africa centro meridionale;Gabon;Femmine;3;2;1
+2024;Africa;Africa centro meridionale;Gabon;Totale;4;6;-2
+2024;Africa;Africa centro meridionale;Guinea equatoriale;Maschi;2;3;-1
+2024;Africa;Africa centro meridionale;Guinea equatoriale;Femmine;0;1;-1
+2024;Africa;Africa centro meridionale;Guinea equatoriale;Totale;2;4;-2
+2024;Africa;Africa centro meridionale;Lesotho;Maschi;1;0;1
+2024;Africa;Africa centro meridionale;Lesotho;Femmine;2;0;2
+2024;Africa;Africa centro meridionale;Lesotho;Totale;3;0;3
+2024;Africa;Africa centro meridionale;Namibia;Maschi;4;3;1
+2024;Africa;Africa centro meridionale;Namibia;Femmine;5;1;4
+2024;Africa;Africa centro meridionale;Namibia;Totale;9;4;5
+2024;Africa;Africa centro meridionale;Sao Tomé e Principe;Maschi;0;0;0
+2024;Africa;Africa centro meridionale;Sao Tomé e Principe;Femmine;0;0;0
+2024;Africa;Africa centro meridionale;Sao Tomé e Principe;Totale;0;0;0
+2024;Africa;Africa centro meridionale;Sudafrica;Maschi;73;122;-49
+2024;Africa;Africa centro meridionale;Sudafrica;Femmine;70;124;-54
+2024;Africa;Africa centro meridionale;Sudafrica;Totale;143;246;-103
+2024;Africa;Africa centro meridionale;Eswatini;Maschi;0;0;0
+2024;Africa;Africa centro meridionale;Eswatini;Femmine;0;0;0
+2024;Africa;Africa centro meridionale;Eswatini;Totale;0;0;0
+2024;Africa;Africa centro meridionale;Repubblica Democratica del Congo;Maschi;12;10;2
+2024;Africa;Africa centro meridionale;Repubblica Democratica del Congo;Femmine;8;13;-5
+2024;Africa;Africa centro meridionale;Repubblica Democratica del Congo;Totale;20;23;-3
+2024;Asia;Asia occidentale;Arabia Saudita;Maschi;184;55;129
+2024;Asia;Asia occidentale;Arabia Saudita;Femmine;110;20;90
+2024;Asia;Asia occidentale;Arabia Saudita;Totale;294;75;219
+2024;Asia;Asia occidentale;Bahrein;Maschi;23;21;2
+2024;Asia;Asia occidentale;Bahrein;Femmine;19;11;8
+2024;Asia;Asia occidentale;Bahrein;Totale;42;32;10
+2024;Asia;Asia occidentale;Emirati Arabi Uniti;Maschi;746;261;485
+2024;Asia;Asia occidentale;Emirati Arabi Uniti;Femmine;615;197;418
+2024;Asia;Asia occidentale;Emirati Arabi Uniti;Totale;1361;458;903
+2024;Asia;Asia occidentale;Palestina;Maschi;10;24;-14
+2024;Asia;Asia occidentale;Palestina;Femmine;17;25;-8
+2024;Asia;Asia occidentale;Palestina;Totale;27;49;-22
+2024;Asia;Asia occidentale;Giordania;Maschi;23;18;5
+2024;Asia;Asia occidentale;Giordania;Femmine;36;24;12
+2024;Asia;Asia occidentale;Giordania;Totale;59;42;17
+2024;Asia;Asia occidentale;Iran;Maschi;6;8;-2
+2024;Asia;Asia occidentale;Iran;Femmine;6;7;-1
+2024;Asia;Asia occidentale;Iran;Totale;12;15;-3
+2024;Asia;Asia occidentale;Iraq;Maschi;7;1;6
+2024;Asia;Asia occidentale;Iraq;Femmine;1;6;-5
+2024;Asia;Asia occidentale;Iraq;Totale;8;7;1
+2024;Asia;Asia occidentale;Israele;Maschi;132;83;49
+2024;Asia;Asia occidentale;Israele;Femmine;142;78;64
+2024;Asia;Asia occidentale;Israele;Totale;274;161;113
+2024;Asia;Asia occidentale;Kuwait;Maschi;70;25;45
+2024;Asia;Asia occidentale;Kuwait;Femmine;19;7;12
+2024;Asia;Asia occidentale;Kuwait;Totale;89;32;57
+2024;Asia;Asia occidentale;Libano;Maschi;20;36;-16
+2024;Asia;Asia occidentale;Libano;Femmine;13;40;-27
+2024;Asia;Asia occidentale;Libano;Totale;33;76;-43
+2024;Asia;Asia occidentale;Oman;Maschi;14;18;-4
+2024;Asia;Asia occidentale;Oman;Femmine;3;5;-2
+2024;Asia;Asia occidentale;Oman;Totale;17;23;-6
+2024;Asia;Asia occidentale;Qatar;Maschi;118;51;67
+2024;Asia;Asia occidentale;Qatar;Femmine;92;33;59
+2024;Asia;Asia occidentale;Qatar;Totale;210;84;126
+2024;Asia;Asia occidentale;Siria;Maschi;3;9;-6
+2024;Asia;Asia occidentale;Siria;Femmine;4;3;1
+2024;Asia;Asia occidentale;Siria;Totale;7;12;-5
+2024;Asia;Asia occidentale;Yemen;Maschi;0;1;-1
+2024;Asia;Asia occidentale;Yemen;Femmine;2;3;-1
+2024;Asia;Asia occidentale;Yemen;Totale;2;4;-2
+2024;Asia;Asia occidentale;Armenia;Maschi;4;1;3
+2024;Asia;Asia occidentale;Armenia;Femmine;0;2;-2
+2024;Asia;Asia occidentale;Armenia;Totale;4;3;1
+2024;Asia;Asia occidentale;Azerbaigian;Maschi;5;4;1
+2024;Asia;Asia occidentale;Azerbaigian;Femmine;1;4;-3
+2024;Asia;Asia occidentale;Azerbaigian;Totale;6;8;-2
+2024;Asia;Asia occidentale;Georgia;Maschi;20;11;9
+2024;Asia;Asia occidentale;Georgia;Femmine;10;15;-5
+2024;Asia;Asia occidentale;Georgia;Totale;30;26;4
+2024;Asia;Asia centro meridionale;Afghanistan;Maschi;1;3;-2
+2024;Asia;Asia centro meridionale;Afghanistan;Femmine;4;2;2
+2024;Asia;Asia centro meridionale;Afghanistan;Totale;5;5;0
+2024;Asia;Asia centro meridionale;Bangladesh;Maschi;21;40;-19
+2024;Asia;Asia centro meridionale;Bangladesh;Femmine;9;21;-12
+2024;Asia;Asia centro meridionale;Bangladesh;Totale;30;61;-31
+2024;Asia;Asia centro meridionale;Bhutan;Maschi;2;0;2
+2024;Asia;Asia centro meridionale;Bhutan;Femmine;2;0;2
+2024;Asia;Asia centro meridionale;Bhutan;Totale;4;0;4
+2024;Asia;Asia centro meridionale;Sri Lanka;Maschi;21;17;4
+2024;Asia;Asia centro meridionale;Sri Lanka;Femmine;18;14;4
+2024;Asia;Asia centro meridionale;Sri Lanka;Totale;39;31;8
+2024;Asia;Asia centro meridionale;India;Maschi;76;53;23
+2024;Asia;Asia centro meridionale;India;Femmine;59;51;8
+2024;Asia;Asia centro meridionale;India;Totale;135;104;31
+2024;Asia;Asia centro meridionale;Maldive;Maschi;12;5;7
+2024;Asia;Asia centro meridionale;Maldive;Femmine;6;2;4
+2024;Asia;Asia centro meridionale;Maldive;Totale;18;7;11
+2024;Asia;Asia centro meridionale;Nepal;Maschi;3;3;0
+2024;Asia;Asia centro meridionale;Nepal;Femmine;0;0;0
+2024;Asia;Asia centro meridionale;Nepal;Totale;3;3;0
+2024;Asia;Asia centro meridionale;Pakistan;Maschi;19;38;-19
+2024;Asia;Asia centro meridionale;Pakistan;Femmine;20;34;-14
+2024;Asia;Asia centro meridionale;Pakistan;Totale;39;72;-33
+2024;Asia;Asia centro meridionale;Kazakhstan;Maschi;16;22;-6
+2024;Asia;Asia centro meridionale;Kazakhstan;Femmine;11;4;7
+2024;Asia;Asia centro meridionale;Kazakhstan;Totale;27;26;1
+2024;Asia;Asia centro meridionale;Uzbekistan;Maschi;6;3;3
+2024;Asia;Asia centro meridionale;Uzbekistan;Femmine;2;1;1
+2024;Asia;Asia centro meridionale;Uzbekistan;Totale;8;4;4
+2024;Asia;Asia centro meridionale;Kirghizistan;Maschi;2;1;1
+2024;Asia;Asia centro meridionale;Kirghizistan;Femmine;2;1;1
+2024;Asia;Asia centro meridionale;Kirghizistan;Totale;4;2;2
+2024;Asia;Asia centro meridionale;Tagikistan;Maschi;3;0;3
+2024;Asia;Asia centro meridionale;Tagikistan;Femmine;1;1;0
+2024;Asia;Asia centro meridionale;Tagikistan;Totale;4;1;3
+2024;Asia;Asia centro meridionale;Turkmenistan;Maschi;2;1;1
+2024;Asia;Asia centro meridionale;Turkmenistan;Femmine;0;0;0
+2024;Asia;Asia centro meridionale;Turkmenistan;Totale;2;1;1
+2024;Asia;Asia orientale;Myanmar/Birmania;Maschi;5;3;2
+2024;Asia;Asia orientale;Myanmar/Birmania;Femmine;0;1;-1
+2024;Asia;Asia orientale;Myanmar/Birmania;Totale;5;4;1
+2024;Asia;Asia orientale;Brunei Darussalam;Maschi;0;1;-1
+2024;Asia;Asia orientale;Brunei Darussalam;Femmine;0;0;0
+2024;Asia;Asia orientale;Brunei Darussalam;Totale;0;1;-1
+2024;Asia;Asia orientale;Cambogia;Maschi;15;9;6
+2024;Asia;Asia orientale;Cambogia;Femmine;11;3;8
+2024;Asia;Asia orientale;Cambogia;Totale;26;12;14
+2024;Asia;Asia orientale;Cina;Maschi;342;252;90
+2024;Asia;Asia orientale;Cina;Femmine;186;123;63
+2024;Asia;Asia orientale;Cina;Totale;528;375;153
+2024;Asia;Asia orientale;Corea del Nord;Maschi;1;0;1
+2024;Asia;Asia orientale;Corea del Nord;Femmine;1;0;1
+2024;Asia;Asia orientale;Corea del Nord;Totale;2;0;2
+2024;Asia;Asia orientale;Corea del Sud;Maschi;62;18;44
+2024;Asia;Asia orientale;Corea del Sud;Femmine;103;20;83
+2024;Asia;Asia orientale;Corea del Sud;Totale;165;38;127
+2024;Asia;Asia orientale;Filippine;Maschi;94;52;42
+2024;Asia;Asia orientale;Filippine;Femmine;67;49;18
+2024;Asia;Asia orientale;Filippine;Totale;161;101;60
+2024;Asia;Asia orientale;Giappone;Maschi;348;98;250
+2024;Asia;Asia orientale;Giappone;Femmine;253;71;182
+2024;Asia;Asia orientale;Giappone;Totale;601;169;432
+2024;Asia;Asia orientale;Indonesia;Maschi;89;34;55
+2024;Asia;Asia orientale;Indonesia;Femmine;38;15;23
+2024;Asia;Asia orientale;Indonesia;Totale;127;49;78
+2024;Asia;Asia orientale;Laos;Maschi;3;5;-2
+2024;Asia;Asia orientale;Laos;Femmine;1;0;1
+2024;Asia;Asia orientale;Laos;Totale;4;5;-1
+2024;Asia;Asia orientale;Timor Leste;Maschi;0;1;-1
+2024;Asia;Asia orientale;Timor Leste;Femmine;0;0;0
+2024;Asia;Asia orientale;Timor Leste;Totale;0;1;-1
+2024;Asia;Asia orientale;Malaysia;Maschi;26;15;11
+2024;Asia;Asia orientale;Malaysia;Femmine;9;6;3
+2024;Asia;Asia orientale;Malaysia;Totale;35;21;14
+2024;Asia;Asia orientale;Mongolia;Maschi;2;2;0
+2024;Asia;Asia orientale;Mongolia;Femmine;0;5;-5
+2024;Asia;Asia orientale;Mongolia;Totale;2;7;-5
+2024;Asia;Asia orientale;Singapore;Maschi;97;73;24
+2024;Asia;Asia orientale;Singapore;Femmine;48;48;0
+2024;Asia;Asia orientale;Singapore;Totale;145;121;24
+2024;Asia;Asia orientale;Thailandia;Maschi;331;131;200
+2024;Asia;Asia orientale;Thailandia;Femmine;106;61;45
+2024;Asia;Asia orientale;Thailandia;Totale;437;192;245
+2024;Asia;Asia orientale;Vietnam;Maschi;51;34;17
+2024;Asia;Asia orientale;Vietnam;Femmine;16;13;3
+2024;Asia;Asia orientale;Vietnam;Totale;67;47;20
+2024;Asia;Asia orientale;Taiwan;Maschi;38;16;22
+2024;Asia;Asia orientale;Taiwan;Femmine;13;16;-3
+2024;Asia;Asia orientale;Taiwan;Totale;51;32;19
+2024;America;America settentrionale;Canada;Maschi;885;377;508
+2024;America;America settentrionale;Canada;Femmine;702;316;386
+2024;America;America settentrionale;Canada;Totale;1587;693;894
+2024;America;America settentrionale;Stati Uniti d'America;Maschi;4149;1650;2499
+2024;America;America settentrionale;Stati Uniti d'America;Femmine;3618;1392;2226
+2024;America;America settentrionale;Stati Uniti d'America;Totale;7767;3042;4725
+2024;America;America centro meridionale;Antigua e Barbuda;Maschi;7;4;3
+2024;America;America centro meridionale;Antigua e Barbuda;Femmine;6;1;5
+2024;America;America centro meridionale;Antigua e Barbuda;Totale;13;5;8
+2024;America;America centro meridionale;Bahamas;Maschi;6;3;3
+2024;America;America centro meridionale;Bahamas;Femmine;3;2;1
+2024;America;America centro meridionale;Bahamas;Totale;9;5;4
+2024;America;America centro meridionale;Barbados;Maschi;2;1;1
+2024;America;America centro meridionale;Barbados;Femmine;1;4;-3
+2024;America;America centro meridionale;Barbados;Totale;3;5;-2
+2024;America;America centro meridionale;Belize;Maschi;1;1;0
+2024;America;America centro meridionale;Belize;Femmine;0;1;-1
+2024;America;America centro meridionale;Belize;Totale;1;2;-1
+2024;America;America centro meridionale;Costa Rica;Maschi;59;44;15
+2024;America;America centro meridionale;Costa Rica;Femmine;32;49;-17
+2024;America;America centro meridionale;Costa Rica;Totale;91;93;-2
+2024;America;America centro meridionale;Cuba;Maschi;47;89;-42
+2024;America;America centro meridionale;Cuba;Femmine;41;95;-54
+2024;America;America centro meridionale;Cuba;Totale;88;184;-96
+2024;America;America centro meridionale;Dominica;Maschi;0;0;0
+2024;America;America centro meridionale;Dominica;Femmine;0;0;0
+2024;America;America centro meridionale;Dominica;Totale;0;0;0
+2024;America;America centro meridionale;Repubblica Dominicana;Maschi;202;148;54
+2024;America;America centro meridionale;Repubblica Dominicana;Femmine;188;154;34
+2024;America;America centro meridionale;Repubblica Dominicana;Totale;390;302;88
+2024;America;America centro meridionale;El Salvador;Maschi;11;12;-1
+2024;America;America centro meridionale;El Salvador;Femmine;7;15;-8
+2024;America;America centro meridionale;El Salvador;Totale;18;27;-9
+2024;America;America centro meridionale;Giamaica;Maschi;2;5;-3
+2024;America;America centro meridionale;Giamaica;Femmine;3;1;2
+2024;America;America centro meridionale;Giamaica;Totale;5;6;-1
+2024;America;America centro meridionale;Grenada;Maschi;0;0;0
+2024;America;America centro meridionale;Grenada;Femmine;1;1;0
+2024;America;America centro meridionale;Grenada;Totale;1;1;0
+2024;America;America centro meridionale;Guatemala;Maschi;16;21;-5
+2024;America;America centro meridionale;Guatemala;Femmine;10;13;-3
+2024;America;America centro meridionale;Guatemala;Totale;26;34;-8
+2024;America;America centro meridionale;Haiti;Maschi;1;0;1
+2024;America;America centro meridionale;Haiti;Femmine;2;0;2
+2024;America;America centro meridionale;Haiti;Totale;3;0;3
+2024;America;America centro meridionale;Honduras;Maschi;5;5;0
+2024;America;America centro meridionale;Honduras;Femmine;8;8;0
+2024;America;America centro meridionale;Honduras;Totale;13;13;0
+2024;America;America centro meridionale;Messico;Maschi;205;165;40
+2024;America;America centro meridionale;Messico;Femmine;133;114;19
+2024;America;America centro meridionale;Messico;Totale;338;279;59
+2024;America;America centro meridionale;Nicaragua;Maschi;10;12;-2
+2024;America;America centro meridionale;Nicaragua;Femmine;4;8;-4
+2024;America;America centro meridionale;Nicaragua;Totale;14;20;-6
+2024;America;America centro meridionale;Panama;Maschi;61;47;14
+2024;America;America centro meridionale;Panama;Femmine;43;32;11
+2024;America;America centro meridionale;Panama;Totale;104;79;25
+2024;America;America centro meridionale;Santa Lucia;Maschi;1;0;1
+2024;America;America centro meridionale;Santa Lucia;Femmine;0;0;0
+2024;America;America centro meridionale;Santa Lucia;Totale;1;0;1
+2024;America;America centro meridionale;Saint Vincent e Grenadine;Maschi;0;1;-1
+2024;America;America centro meridionale;Saint Vincent e Grenadine;Femmine;0;2;-2
+2024;America;America centro meridionale;Saint Vincent e Grenadine;Totale;0;3;-3
+2024;America;America centro meridionale;Saint Kitts e Nevis;Maschi;0;0;0
+2024;America;America centro meridionale;Saint Kitts e Nevis;Femmine;0;0;0
+2024;America;America centro meridionale;Saint Kitts e Nevis;Totale;0;0;0
+2024;America;America centro meridionale;Argentina;Maschi;2661;1528;1133
+2024;America;America centro meridionale;Argentina;Femmine;2661;1304;1357
+2024;America;America centro meridionale;Argentina;Totale;5322;2832;2490
+2024;America;America centro meridionale;Bolivia;Maschi;31;30;1
+2024;America;America centro meridionale;Bolivia;Femmine;22;24;-2
+2024;America;America centro meridionale;Bolivia;Totale;53;54;-1
+2024;America;America centro meridionale;Brasile;Maschi;5555;1713;3842
+2024;America;America centro meridionale;Brasile;Femmine;5254;1464;3790
+2024;America;America centro meridionale;Brasile;Totale;10809;3177;7632
+2024;America;America centro meridionale;Cile;Maschi;133;176;-43
+2024;America;America centro meridionale;Cile;Femmine;126;137;-11
+2024;America;America centro meridionale;Cile;Totale;259;313;-54
+2024;America;America centro meridionale;Colombia;Maschi;186;177;9
+2024;America;America centro meridionale;Colombia;Femmine;153;125;28
+2024;America;America centro meridionale;Colombia;Totale;339;302;37
+2024;America;America centro meridionale;Ecuador;Maschi;100;140;-40
+2024;America;America centro meridionale;Ecuador;Femmine;122;165;-43
+2024;America;America centro meridionale;Ecuador;Totale;222;305;-83
+2024;America;America centro meridionale;Guyana;Maschi;0;0;0
+2024;America;America centro meridionale;Guyana;Femmine;0;0;0
+2024;America;America centro meridionale;Guyana;Totale;0;0;0
+2024;America;America centro meridionale;Paraguay;Maschi;51;29;22
+2024;America;America centro meridionale;Paraguay;Femmine;58;22;36
+2024;America;America centro meridionale;Paraguay;Totale;109;51;58
+2024;America;America centro meridionale;Perù;Maschi;169;196;-27
+2024;America;America centro meridionale;Perù;Femmine;192;198;-6
+2024;America;America centro meridionale;Perù;Totale;361;394;-33
+2024;America;America centro meridionale;Suriname;Maschi;0;0;0
+2024;America;America centro meridionale;Suriname;Femmine;0;0;0
+2024;America;America centro meridionale;Suriname;Totale;0;0;0
+2024;America;America centro meridionale;Trinidad e Tobago;Maschi;2;3;-1
+2024;America;America centro meridionale;Trinidad e Tobago;Femmine;0;0;0
+2024;America;America centro meridionale;Trinidad e Tobago;Totale;2;3;-1
+2024;America;America centro meridionale;Uruguay;Maschi;108;53;55
+2024;America;America centro meridionale;Uruguay;Femmine;107;51;56
+2024;America;America centro meridionale;Uruguay;Totale;215;104;111
+2024;America;America centro meridionale;Venezuela;Maschi;310;455;-145
+2024;America;America centro meridionale;Venezuela;Femmine;299;480;-181
+2024;America;America centro meridionale;Venezuela;Totale;609;935;-326
+2024;Oceania;Oceania;Australia;Maschi;2285;703;1582
+2024;Oceania;Oceania;Australia;Femmine;1670;529;1141
+2024;Oceania;Oceania;Australia;Totale;3955;1232;2723
+2024;Oceania;Oceania;Figi;Maschi;0;1;-1
+2024;Oceania;Oceania;Figi;Femmine;0;3;-3
+2024;Oceania;Oceania;Figi;Totale;0;4;-4
+2024;Oceania;Oceania;Kiribati;Maschi;0;0;0
+2024;Oceania;Oceania;Kiribati;Femmine;0;0;0
+2024;Oceania;Oceania;Kiribati;Totale;0;0;0
+2024;Oceania;Oceania;Isole Marshall;Maschi;0;0;0
+2024;Oceania;Oceania;Isole Marshall;Femmine;0;0;0
+2024;Oceania;Oceania;Isole Marshall;Totale;0;0;0
+2024;Oceania;Oceania;Stati Federati di Micronesia;Maschi;0;0;0
+2024;Oceania;Oceania;Stati Federati di Micronesia;Femmine;0;0;0
+2024;Oceania;Oceania;Stati Federati di Micronesia;Totale;0;0;0
+2024;Oceania;Oceania;Nauru;Maschi;0;0;0
+2024;Oceania;Oceania;Nauru;Femmine;0;0;0
+2024;Oceania;Oceania;Nauru;Totale;0;0;0
+2024;Oceania;Oceania;Nuova Zelanda;Maschi;129;53;76
+2024;Oceania;Oceania;Nuova Zelanda;Femmine;101;47;54
+2024;Oceania;Oceania;Nuova Zelanda;Totale;230;100;130
+2024;Oceania;Oceania;Palau;Maschi;1;0;1
+2024;Oceania;Oceania;Palau;Femmine;2;0;2
+2024;Oceania;Oceania;Palau;Totale;3;0;3
+2024;Oceania;Oceania;Papua Nuova Guinea;Maschi;1;1;0
+2024;Oceania;Oceania;Papua Nuova Guinea;Femmine;0;1;-1
+2024;Oceania;Oceania;Papua Nuova Guinea;Totale;1;2;-1
+2024;Oceania;Oceania;Isole Salomone;Maschi;0;1;-1
+2024;Oceania;Oceania;Isole Salomone;Femmine;0;0;0
+2024;Oceania;Oceania;Isole Salomone;Totale;0;1;-1
+2024;Oceania;Oceania;Samoa;Maschi;0;0;0
+2024;Oceania;Oceania;Samoa;Femmine;0;0;0
+2024;Oceania;Oceania;Samoa;Totale;0;0;0
+2024;Oceania;Oceania;Tonga;Maschi;0;0;0
+2024;Oceania;Oceania;Tonga;Femmine;0;0;0
+2024;Oceania;Oceania;Tonga;Totale;0;0;0
+2024;Oceania;Oceania;Tuvalu;Maschi;0;0;0
+2024;Oceania;Oceania;Tuvalu;Femmine;0;0;0
+2024;Oceania;Oceania;Tuvalu;Totale;0;0;0
+2024;Oceania;Oceania;Vanuatu;Maschi;0;0;0
+2024;Oceania;Oceania;Vanuatu;Femmine;1;0;1
+2024;Oceania;Oceania;Vanuatu;Totale;1;0;1

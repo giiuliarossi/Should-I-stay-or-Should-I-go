@@ -1,0 +1,302 @@
+<!-- 
+  - colore contorno regioni
+  - metti dashboard italia sopra e confronto paesi in basso
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employment rates in Europe</title>
+    <link rel="stylesheet" href="3-style.css" />
+    <link rel="stylesheet" href="4-salary.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- link homepage -->
+      <h1><a href="index.html">BRAIN DRAIN</a></h1>
+    </header>
+    <div class="grid-container">
+      <div class="container">
+        <div class="info">
+          <h2>What are your chances of finding a job?</h2>
+          <p class="text">
+            <br />
+            In Italy, the employment rate for recent graduates hovers around
+            70%, one of the lowest in Europe.
+            <br />Meanwhile, countries like Germany or the Netherlands boast
+            rates well over 90%. But it’s not just about finding a job; it’s
+            about what that job looks like. <br /><br />
+          </p>
+          <p class="long-quote">
+            "In Italy, after getting my high school diploma, I couldn't find a
+            stable job. I worked for several years as a waiter, but never
+            managed to find a permanent position for more than 6 months. It was
+            <b>frustrating</b>, so I thought about moving to London, where some
+            friends of mine had already moved. Thanks to them, I immediately
+            found a job in a large restaurant chain; for the first time,
+            <b>I had the opportunity to work with future prospects</b>."
+            <br /><br />
+            Luca. 28 years old. <br />From Apulia to London.
+          </p>
+
+          <p class="text">
+            <br />It’s a frustrating reality for many young professionals.
+            Leaving isn’t necessarily about wanting to get rich, it’s about
+            wanting to be able to pay rent without anxiety, save for the future,
+            and finally feel like an adult.
+          </p>
+
+          <!-- <p class="long-quote">
+            "I’ve had regular employment contracts and paid pension
+            contributions—a form of stability. All of these jobs were done well,
+            successfully, and with professionalism—opportunities I couldn’t even
+            have come close to getting in Italy with my educational background.
+            Here, I’ve always had regular contracts, whether fixed-term or not.
+            I’ve also always been able to find work again: my last job came at
+            age 58 (in Italy I was struggling at 26)".<br /><br />Luisa. 65
+            years old.
+            <br />
+            From Rome to Dublin and then Amsterdam.
+          </p> -->
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="info">
+          <h3>Employment by field of study in Italy</h3>
+          <div class="filters">
+            <div class="btn-group" id="studyArea">
+              <button class="btn active" data-value="all">All</button>
+              <button class="btn" data-value="artistica">
+                Arts, Literature, and Education
+              </button>
+              <button class="btn" data-value="giuridica">
+                economics, law, and social sciences
+              </button>
+              <button class="btn" data-value="sanitaria">
+                Healthcare and Agro-Veterinary Sciences
+              </button>
+              <button class="btn" data-value="stem">STEM</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- dashboard italy -->
+    <div class="dashboard">
+      <div class="left-panel">
+        <!-- <h3>Employment by field of study in Italy</h3>
+        <div class="filters">
+          <div class="btn-group" id="studyArea">
+            <button class="btn active" data-value="all">All</button>
+            <button class="btn" data-value="artistica">
+              arts, literature, and education
+            </button>
+            <button class="btn" data-value="giuridica">
+              economics, law, and social sciences
+            </button>
+            <button class="btn" data-value="sanitaria">
+              healthcare and agro-veterinary sciences
+            </button>
+            <button class="btn" data-value="stem">STEM</button>
+          </div>
+        </div> -->
+
+        <div class="chart-container">
+          <canvas id="regionChart"></canvas>
+        </div>
+      </div>
+
+      <div class="right-panel">
+        <div class="map-container" id="italyMap"></div>
+      </div>
+    </div>
+
+    <!-- dashboard conparison countries -->
+
+    <div class="container">
+      <div class="info">
+        <h3>Employment analysis</h3>
+        <p class="text">
+          The employment rate for recent graduates in Italy is around 70%, one
+          of the lowest in Europe. In contrast, countries like Germany and the
+          Netherlands boast rates well over 90%. But it’s not just about finding
+          a job; it’s about what that job looks like.
+          <br />
+        </p>
+        <p class="text">
+          The analysis and comparison were conducted between Italy and the
+          European Union member states among the five countries with the highest
+          number of Italian expatriates in 2024: <b>Germany</b>,
+          <b>Spain</b>,and <b>France</b>.
+        </p>
+
+        <div class="control-panel">
+          <div class="mode-selector">
+            <p><br /><strong>View Mode:</strong></p>
+            <div class="radio-group">
+              <input
+                type="radio"
+                id="modeSingle"
+                name="viewMode"
+                value="single"
+                class="hidden-radio"
+                checked
+              />
+              <label for="modeSingle" class="btn">Single country</label>
+
+              <input
+                type="radio"
+                id="modeCompare"
+                name="viewMode"
+                value="compare"
+                class="hidden-radio"
+              />
+              <label for="modeCompare" class="btn">Country comparison</label>
+            </div>
+          </div>
+
+          <div id="singleControls" class="dynamic-filter">
+            <p class="text">Select Country:</p>
+            <div class="btn-group" id="nationSelect">
+              <button class="btn active" data-value="Italy">Italy</button>
+              <button class="btn" data-value="Germany">Germany</button>
+              <button class="btn" data-value="Spain">Spain</button>
+              <button class="btn" data-value="France">France</button>
+            </div>
+          </div>
+
+          <div
+            id="compareControls"
+            class="dynamic-filter"
+            style="display: none"
+          >
+            <p>Compare data:</p>
+            <div class="btn-group" id="ageSelect">
+              <button class="btn active" data-value="young_total">
+                15-24 years old
+              </button>
+              <button class="btn" data-value="old_total">
+                55-64 years old
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dashboard-container">
+      <div class="chart-wrapper">
+        <canvas id="mainChart"></canvas>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div class="container">
+        <div class="info">
+          <div class="button-chapter">
+            <!-- porta 0 - homepage -->
+            <a href="index.html">
+              <img
+                src="1-doors/1.png"
+                alt="door image"
+                class="door"
+                id="chapter1"
+              />
+              <span class="tooltip-text">Homepage</span>
+            </a>
+
+            <!-- porta 1 - where is everyone going? -->
+            <a href="1-line.html">
+              <img
+                src="1-doors/2.png"
+                alt="door image"
+                class="door"
+                id="chapter1"
+              />
+              <!-- <p>Where is everyone going?</p> -->
+              <span class="tooltip-text">Where is everyone <br />going?</span>
+            </a>
+
+            <!-- porta 2 - what are your chances of finding a job? -->
+            <a href="4-salary.html">
+              <img
+                src="1-doors/3.png"
+                alt="door image"
+                class="door"
+                id="chapter2"
+                style="opacity: 0.5"
+              />
+              <span class="tooltip-text"
+                >What are your chances <br />of finding a job?</span
+              >
+            </a>
+
+            <!-- porta 3 - what goals do you have in life? -->
+            <a href="3-lifeMilestones.html">
+              <img
+                src="1-doors/4.png"
+                alt="door image"
+                class="door"
+                id="chapter3"
+              />
+              <span class="tooltip-text"
+                >What goals do you <br />have in life?</span
+              >
+            </a>
+
+            <!-- porta 4 - Will you miss home? -->
+            <a href="5-nostalgia.html">
+              <img
+                src="1-doors/5.png"
+                alt="door image"
+                class="door"
+                id="chapter4"
+              />
+              <span class="tooltip-text"
+                >Is it easy to <br />rebuild a life?</span
+              >
+            </a>
+
+            <!-- porta 6 - What's in your cart? -->
+            <a href="7-groceries.html">
+              <img
+                src="1-doors/6.png"
+                alt="door image"
+                class="door"
+                id="chapter5"
+              />
+              <span class="tooltip-text">What's in your cart?</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="info">
+          <p class="text" style="text-align: center">
+            Go to the next chapter: <br />
+            <b>What goals do you have in life?</b>
+          </p>
+          <div class="next-chapter">
+            <a href="3-lifeMilestones.html">
+              <img src="1-doors/4.png" alt="door image" class="next" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        Giulia Rossi. Aalto University – Information Design Studio 2026.
+      </footer>
+
+      <script src="4-salary2.js" defer></script>
+    </div>
+  </body>
+</html>

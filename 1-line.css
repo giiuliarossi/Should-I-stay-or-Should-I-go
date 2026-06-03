@@ -1,0 +1,298 @@
+.scrolly-container {
+  position: relative;
+  margin-top: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 3rem;
+}
+
+/* mask */
+.sticky-intro-mask {
+  position: sticky;
+  top: 0;
+  background-color: var(--white);
+  z-index: 15;
+  padding: 1.5rem 0;
+  margin-bottom: 0.1rem;
+}
+
+.century-col {
+  grid-column: 1;
+  margin-bottom: 69vh;
+}
+
+.scrolling-col {
+  grid-column: 2 / 4;
+  padding-top: 1vh;
+  z-index: 5;
+}
+
+.scrolly-grid {
+  position: relative;
+  z-index: 5;
+}
+
+.sticky-century {
+  position: sticky;
+  top: 15vh;
+  z-index: 11;
+  font-family: H2;
+  font-size: 5rem; /* H2 size */
+  line-height: 1;
+  text-align: right;
+  color: var(--blue);
+  padding-top: 0.5rem;
+}
+
+.decade {
+  font-family: H2;
+  font-size: 5rem;
+  line-height: 1;
+  color: var(--blue);
+  padding-top: 0.5rem;
+  margin-top: -0.5rem;
+}
+
+/* Timeline Layout Updates */
+.step {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 25vh;
+  opacity: 1;
+}
+
+.step:last-child {
+  margin-bottom: 64.7vh;
+}
+
+/* Semi-transparent mask behind text blocks */
+.step-text {
+  padding: 1.5rem;
+}
+
+.data-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  padding-right: 1.5rem;
+  font-family: body;
+  color: var(--blue);
+  line-height: 0.8;
+  text-align: left;
+}
+
+.step-text h3 {
+  font-family: H2;
+  margin-top: 0;
+}
+
+/* Timeline D3 Chart Styles */
+#timeline-chart-container {
+  background-color: var(--white);
+  position: sticky;
+  top: 50vh;
+  height: 50vh;
+  width: 100%;
+  z-index: 100;
+  pointer-events: none;
+}
+#timeline-chart-container text {
+  font-family: body !important;
+}
+
+.chart-line {
+  fill: none;
+  stroke-width: 2.5px;
+}
+
+.chart-zero-baseline {
+  stroke: var(--blue);
+  stroke-width: 1px;
+  stroke-dasharray: 4 4;
+  opacity: 0.3;
+}
+
+.chart-highlight {
+  fill: var(--lightblue);
+  opacity: 0;
+  transition: x 0.5s ease, width 0.5s ease, opacity 0.5s ease;
+}
+
+@media (max-width: 900px) {
+  .century-col,
+  .scrolling-col {
+    grid-column: 1;
+  }
+  .sticky-century {
+    text-align: left;
+    top: 10vh;
+  }
+  .step {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Tooltip styling */
+.chart-tooltip {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--blue);
+  padding: 10px;
+  pointer-events: none; /* Let mouse pass through */
+  opacity: 0;
+  color: var(--blue);
+  font-family: body;
+  font-size: 0.85rem;
+  z-index: 1000;
+}
+
+.tooltip-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 2px 0;
+}
+
+/* MAP */
+/* #map-id-Italy {
+  fill: var(--lightblue) !important;
+  opacity: 1 !important;
+} */
+
+.sticky-map-title {
+  position: sticky;
+  top: 0; /* top of the window */
+  z-index: 20; /* visually on top of map */
+  background-color: var(--white, #ffffff);
+  padding: 1rem 0 1.5rem 0;
+  margin: 0;
+  text-align: center;
+}
+
+.interactive-map-section {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-top: 0rem;
+  margin-bottom: 5rem;
+  padding-top: 3rem;
+}
+
+.map-scrolly-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  text-align: left;
+}
+
+/* Sidebar Map */
+#map-sidebar {
+  width: 20%;
+  position: sticky;
+  top: 10vh;
+  height: 80vh;
+  overflow-y: auto;
+  border-right: 1px solid var(--lightblue);
+  padding-right: 1rem;
+}
+
+#map-sidebar h3 {
+  margin: 0;
+  padding: 3rem 0 1rem 0;
+  position: sticky;
+  top: 0;
+  background-color: var(--white, #ffffff);
+  z-index: 10;
+  /* border-bottom: 1px solid var(--lightblue); */
+}
+
+#map-ranking-list {
+  list-style: none;
+  padding: 1rem 0 0 0;
+  margin-top: 1.5rem;
+}
+
+#map-ranking-list li {
+  padding: 0.8rem 0.5rem;
+  border-bottom: 1px solid rgba(96, 181, 255, 0.3); /* a bit transparent */
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  font-family: body;
+  font-size: 0.9rem;
+  color: var(--blue);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#map-right-column {
+  width: 80%;
+  position: relative;
+}
+
+#map-container {
+  position: sticky;
+  top: 10vh;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+#map-scroll-text {
+  position: relative;
+  z-index: 2;
+  padding-bottom: 20vh;
+  pointer-events: none;
+}
+
+.map-step {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.map-step-content {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 1.5rem;
+  border: 1px solid var(--blue);
+  pointer-events: auto;
+  max-width: 300px;
+  box-shadow: 0 4px 15px rgba(3, 90, 166, 0.1);
+}
+
+/* colors map */
+.country,
+.region {
+  fill: var(--blue);
+  stroke: var(--white);
+  stroke-width: 0.01rem;
+  transition: fill 0.2s ease, opacity 0.2s ease;
+  cursor: pointer;
+}
+
+/* highlight */
+#map-ranking-list li.highlighted {
+  background-color: var(--brown);
+  color: var(--white);
+}
+
+.country.highlighted,
+.region.highlighted {
+  fill: var(--brown) !important;
+  opacity: 1 !important;
+}
+
+#map-sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+#map-sidebar::-webkit-scrollbar-thumb {
+  background-color: var(--blue);
+  border-radius: 10px;
+}

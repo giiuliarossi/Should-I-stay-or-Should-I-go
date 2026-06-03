@@ -1,0 +1,135 @@
+.hidden-radio {
+  display: none;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+button {
+  background-color: var(--white);
+  border: 2px solid var(--lightblue);
+  padding: 0.5rem;
+  margin: 0.2rem;
+  cursor: pointer;
+  color: var(--blue);
+}
+
+button:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.btn.active,
+input[type="radio"]:checked + .btn {
+  background-color: var(--blue);
+  color: var(--white);
+  border: 2px solid var(--lightblue);
+  padding: 0.5rem;
+}
+
+label {
+  background-color: var(--white);
+  border: 0.1rem solid var(--lightblue);
+  padding: 0.5rem;
+  margin: 0.2rem;
+  cursor: pointer;
+  color: var(--blue);
+  font-family: body;
+  font-size: 0.9rem;
+}
+
+/* DASHBOARD 1 */
+.dashboard {
+  display: flex;
+  gap: 2rem;
+  min-height: 80vh;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.left-panel,
+.right-panel {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-panel h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.filters {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  text-align: left;
+}
+
+.chart-container {
+  flex-grow: 1;
+  position: relative;
+  min-height: 400px;
+}
+
+.map-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.map-container svg {
+  width: 100%;
+  height: 100%;
+  max-height: 800px;
+}
+
+.region-path {
+  stroke: var(--white);
+  stroke-width: 1.5;
+  transition: fill-opacity 0.5s ease, fill 0.5s ease;
+  cursor: pointer;
+}
+
+.region-path:hover {
+  stroke: var(
+    --lightblue
+  ); /*CAMBIA per contorno regione, no troppo leggibile */
+  stroke-width: 2;
+}
+
+/*DASHBOARD 2 */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto 5rem auto;
+  padding: 2rem;
+}
+
+.control-panel {
+  margin-bottom: 0rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.dynamic-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.chart-wrapper {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}

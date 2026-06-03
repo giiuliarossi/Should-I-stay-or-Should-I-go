@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 3</title>
+    <!-- timeline + map -->
+    <link rel="stylesheet" href="3-style.css" />
+    <link rel="stylesheet" href="3-goals.css" />
+    <!-- timeline + map -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <header>
+        <!-- link homepage -->
+        <h1><a href="index.html">BRAIN DRAIN</a></h1>
+      </header>
+
+      <div class="container">
+        <div class="info">
+          <h2>What goals do you <br />have in life?</h2>
+          <p class="text">
+            <br />
+            When it comes to taking big steps in life, the timeline feels
+            different depending on where you live.
+          </p>
+          <p class="long-quote">
+            "After five years in London, I realized that building a future here
+            <b>isn't easy</b>. I'm currently living in a shared apartment, but
+            if I want a place of my own, costs are rising sharply, the city is
+            very expensive. Don't think it's all easy, because it's not. I
+            believe <b>you can</b> make your plans happen in Italy too; it might
+            be harder, but <b>it's possible</b>." <br /><br />Luca. 28 years
+            old.
+            <br />
+            From Apulia to London.
+          </p>
+
+          <h3><br />Select what you want to achieve:</h3>
+          <p class="text">
+            The data shows the average age at which citizens of each country
+            reach each of these goals.
+          </p>
+          <!-- graph -->
+          <div id="graph-section">
+            <div id="controls"></div>
+            <div id="chart-container"></div>
+          </div>
+          <div id="tooltip" class="tooltip"></div>
+
+          <!-- idea -->
+          <!-- <h3>Family</h3>
+          <p class="text">
+            age first time parents (already have data on mothers)
+            <br />
+            average expenses of having a child: daycare, university, general
+            perception of the level of education in that country (e.g. Finland
+            has the best education system in the world).
+          </p> -->
+
+          <!-- <p class="long-quote">
+            "I left Italy in 1996, after losing yet another job, my apartment
+            (because I couldn’t pay the rent), and being forced to
+            <b>move back in</b> with my parents."<br /><br />Luisa. 65 years
+            old.
+            <br />
+            From Rome to Dublin and then Amsterdam.
+          </p> -->
+
+          <!-- <h3>Well-being</h3>
+          <p class="text">
+            leave parents' house (data already collected)
+            <br />
+            first time buyer for house (data already collected)
+            <br />
+            work-life balance.
+          </p> -->
+
+          <p class="long-quote">
+            "We both grew in our jobs and reached higher positions; in Italy,
+            this wouldn't have been possible in such a short time... We also
+            managed to put money aside. However, you have to be <b>careful</b>;
+            everyone thinks Australia is El Dorado, but it isn't. The cost of
+            living is high, especially in the cities, and buying a house is
+            <b>almost impossible</b>. Plus, when our child was born, as Italians
+            we didn't have a health card... if there hadn't been two of us with
+            savings, it would have been really difficult." <br /><br />Lisa and
+            Nicola. 30 and 31 years old. <br />
+            From Veneto do Australia.
+          </p>
+        </div>
+      </div>
+
+      <!-- porte -->
+      <div class="container">
+        <div class="info">
+          <div class="button-chapter">
+            <!-- porta 0 - homepage -->
+            <a href="index.html">
+              <img
+                src="1-doors/1.png"
+                alt="door image"
+                class="door"
+                id="chapter1"
+              />
+              <span class="tooltip-text">Homepage</span>
+            </a>
+
+            <!-- porta 1 - where is everyone going? -->
+            <a href="1-line.html">
+              <img
+                src="1-doors/2.png"
+                alt="door image"
+                class="door"
+                id="chapter1"
+              />
+              <!-- <p>Where is everyone going?</p> -->
+              <span class="tooltip-text"
+                >Where is everyone <br />
+                going?</span
+              >
+            </a>
+
+            <!-- porta 2 - what are your chances of finding a job? -->
+            <a href="4-salary.html">
+              <img
+                src="1-doors/3.png"
+                alt="door image"
+                class="door"
+                id="chapter2"
+              />
+              <span class="tooltip-text"
+                >What are your chances <br />of finding a job?</span
+              >
+            </a>
+
+            <!-- porta 3 - what goals do you have in life? -->
+            <a href="3-lifeMilestones.html">
+              <img
+                src="1-doors/4.png"
+                alt="door image"
+                class="door"
+                id="chapter3"
+                style="opacity: 0.5"
+              />
+              <span class="tooltip-text"
+                >What goals do you <br />have in life?</span
+              >
+            </a>
+
+            <!-- porta 4 - Will you miss home? -->
+            <a href="5-nostalgia.html">
+              <img
+                src="1-doors/5.png"
+                alt="door image"
+                class="door"
+                id="chapter4"
+              />
+              <span class="tooltip-text"
+                >Is it easy to <br />
+                rebuild a life?</span
+              >
+            </a>
+
+            <!-- porta 6 - What's in your cart? -->
+            <a href="7-groceries.html">
+              <img
+                src="1-doors/6.png"
+                alt="door image"
+                class="door"
+                id="chapter5"
+              />
+              <span class="tooltip-text">What's in your cart?</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="info">
+          <p class="text" style="text-align: center">
+            Go to the next chapter: <br />
+            <b>Is it easy to rebuild a life?</b>
+          </p>
+          <div class="next-chapter">
+            <a href="5-nostalgia.html">
+              <img src="1-doors/5.png" alt="door image" class="next" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        Giulia Rossi. Aalto University – Information Design Studio 2026.
+      </footer>
+
+      <script src="3-goals.js" defer></script>
+    </div>
+  </body>
+</html>

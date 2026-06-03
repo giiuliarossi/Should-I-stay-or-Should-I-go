@@ -1,0 +1,60 @@
+#graph-section {
+  margin: 3rem 0;
+  width: 100%;
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.filter-btn {
+  font-family: body;
+  padding: 0.4rem 1rem;
+  background-color: var(--white);
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease-in-out;
+  color: var(--blue);
+}
+
+.filter-btn.active {
+  color: var(--white);
+}
+
+.track-line {
+  stroke: var(--blue);
+  stroke-dasharray: 4 4;
+  stroke-width: 1;
+  opacity: 0.6;
+}
+
+.drop-line {
+  stroke: var(--blue);
+  stroke-width: 1;
+  opacity: 0.3;
+}
+
+.axis-line path,
+.axis-line line {
+  stroke: var(--blue);
+}
+
+.tooltip {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 0.8rem;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  font-family: body;
+  font-size: 0.85rem;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  z-index: 10;
+  text-align: left;
+}
